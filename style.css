@@ -2,17 +2,57 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  font-family: "Open Sans", sans-serif;
+}
 #page{
   box-sizing: border-box;
   width: 1120px;
   margin: 88px auto 137px;
 }
+header{
+  font-weight: bold;
+  font-size: 16px;
+  color: #E1624F;
+}
+h1{
+  font-weight: bold;
+  font-size: 36px;
+}
 main img{
   border-radius: 28px;
   height: 350px;
 }
-#description img{
+#description1 img{
   height: 660px;
+}
+#description1{
+  font-style: italic;
+  font-size: 16px;
+}
+h2{
+  font-weight: bold;
+  font-size: 32px;
+}
+h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+ul{
+  font-weight: bold;
+  font-size: 16px;
+}
+#historia{
+  color: #0C51A7;
+}
+#casais{
+  color: #591B98;
+}
+#famílias{
+  color: #E5245E;
+}
+#orçamento{
+  color: #E95E10;
 }
 footer{
   text-align: center;
