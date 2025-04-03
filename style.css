@@ -9,7 +9,7 @@
 #page{
   box-sizing: border-box;
   width: 1120px;
-  margin: 88px auto 137px;
+  margin: 88px auto 0px auto;
 }
 header{
   font-weight: bold;
@@ -38,7 +38,6 @@ main img{
   font-style: italic;
   font-size: 16px;
   text-align: center;
-  /* padding-bottom: 40px; */
 }
 #content{
   padding-top: 64px;
@@ -84,7 +83,19 @@ ul{
 footer{
   text-align: center;
   padding-top: 65px;
+  margin-bottom: 137px;
 }
 footer img{
   vertical-align: middle;
+}
+
+@media (width<=80em){
+  #page{
+    width: 100%;
+    padding: 1rem;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
 }
